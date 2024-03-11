@@ -8,4 +8,3 @@ def safe_function(fct, *args):
         result = None
 
     return (result)
-
