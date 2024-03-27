@@ -12,12 +12,11 @@ if __name__ == "__main__":
     argv = sys.argv[1:]
 
     save_to_json_file = __import__("5-save_to_json_file").save_to_json_file
-    load_from_json_file = __import__("6-load_from_json_file")
-    .load_from_json_file
+    load_frm_json_fil = __import__("6-load_from_json_file").load_from_json_file
 
     file_path = "add_item.json"
     if path.exists(file_path):
-        list_obj = load_from_json_file(file_path)
+        list_obj = load_frm_json_fil(file_path)
     else:
         list_obj = list()
     save_to_json_file(list_obj + argv, file_path)
