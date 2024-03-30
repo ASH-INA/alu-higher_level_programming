@@ -8,8 +8,8 @@ import urllib.request
 url = "https://alu-intranet.hbtn.io/status"
 
 with urllib.request.urlopen(url) as response:
-    html = response.read().decode('utf-8')
+    content = response.read()  # Read the response body as bytes
     print("Body response:")
-    print("\t- type:", type(html))
-    print("\t- content:", html)
-    print("\t- utf8 content:", html)
+    print("\t- type:", type(content))
+    print("\t- content:", content)
+    print("\t- utf8 content:", content.decode('utf-8')) 
