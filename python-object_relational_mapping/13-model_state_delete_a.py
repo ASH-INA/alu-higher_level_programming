@@ -22,7 +22,7 @@ if __name__ == "__main__":
     session = Session()
 
     # Query and delete all State objects with a name containing the
-    #letter 'a'
+    # letter 'a'
     for state in session.query(State):
         if "a" in state.name:
             session.delete(state)
