@@ -19,7 +19,7 @@ if __name__ == "__main__":
     c = db.cursor()
 
     # Execute the SQL query to fetch all cities and their
-    #corresponding state names
+    # corresponding state names
     c.execute("SELECT * FROM `cities` as `c` \
                INNER JOIN `states` as `s` \
                ON `c`.`state_id` = `s`.`id` \
