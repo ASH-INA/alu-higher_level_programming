@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-This script lists all State objects from the 'states' table of the specified database.
+This script lists all State objects from the 'states' 
+table of the specified database.
 
 Usage:
     ./7-model_state_fetch_all.py <mysql_username> <mysql_password> <database_name>

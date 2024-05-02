@@ -5,7 +5,8 @@ whose name matches the state name supplied as an argument. It is designed to be
 safe from SQL injections.
 
 Usage:
-    ./3-my_safe_filter_states.py <mysql_username> <mysql_password> <database_name> <state_name_searched>
+    ./3-my_safe_filter_states.py <mysql_username> <mysql_password> 
+    <database_name> <state_name_searched>
 """
 
 import sys

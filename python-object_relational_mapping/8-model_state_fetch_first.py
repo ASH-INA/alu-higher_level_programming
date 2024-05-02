@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-This script prints the first State object from the 'states' table of the specified database.
+This script prints the first State object from the 'states' table of the specified 
+database.
 
 Usage:
     ./8-model_state_fetch_first.py <mysql_username> <mysql_password> <database_name>

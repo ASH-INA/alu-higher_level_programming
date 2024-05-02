@@ -4,7 +4,8 @@ This script displays all values in the 'states' table of the specified database
 whose name matches the state name supplied as an argument.
 
 Usage:
-    ./2-my_filter_states.py <mysql_username> <mysql_password> <database_name> <state_name_searched>
+    ./2-my_filter_states.py <mysql_username> <mysql_password> 
+    <database_name> <state_name_searched>
 """
 
 import sys

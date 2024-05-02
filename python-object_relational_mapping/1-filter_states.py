@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-This script lists all states with names starting with 'N' from the specified database.
+This script lists all states with names starting with 'N' 
+from the specified database.
 
 Usage:
     python3 script_name.py <username> <password> <database_name>
