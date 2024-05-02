@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Lists the State object with the name passed as an argument from the 
+Lists the State object with the name passed as an argument from the
 database hbtn_0e_6_usa.
 """
 

@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This script lists all cities from the 'cities' table of the specified 
+This script lists all cities from the 'cities' table of the specified
 database,
 ordered by city ID, along with their corresponding state names.
 
@@ -18,7 +18,7 @@ if __name__ == "__main__":
     # Create a cursor object
     c = db.cursor()
 
-    # Execute the SQL query to fetch all cities and their 
+    # Execute the SQL query to fetch all cities and their
     #corresponding state names
     c.execute("SELECT `c`.`id`, `c`.`name`, `s`.`name` \
                FROM `cities` as `c` \

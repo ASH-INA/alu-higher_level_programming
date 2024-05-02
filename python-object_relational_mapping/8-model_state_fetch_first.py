@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This script prints the first State object from the 'states' table of the specified 
+This script prints the first State object from the 'states' table of the specified
 database.
 
 Usage:

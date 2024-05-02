@@ -4,7 +4,7 @@ This script displays all cities of a given state from the 'cities' table
 of the specified database. It is designed to be safe from SQL injections.
 
 Usage:
-    ./5-filter_cities.py <mysql_username> <mysql_password> <database_name> 
+    ./5-filter_cities.py <mysql_username> <mysql_password> <database_name>
     <state_name_searched>
 """
 
@@ -18,7 +18,7 @@ if __name__ == "__main__":
     # Create a cursor object
     c = db.cursor()
 
-    # Execute the SQL query to fetch all cities and their 
+    # Execute the SQL query to fetch all cities and their
     #corresponding state names
     c.execute("SELECT * FROM `cities` as `c` \
                INNER JOIN `states` as `s` \

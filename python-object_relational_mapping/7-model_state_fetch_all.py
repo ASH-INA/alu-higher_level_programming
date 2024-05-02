@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This script lists all State objects from the 'states' 
+This script lists all State objects from the 'states'
 table of the specified database.
 
 Usage:
