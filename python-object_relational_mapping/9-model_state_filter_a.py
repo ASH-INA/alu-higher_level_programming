@@ -5,7 +5,8 @@ database
 that contain the letter 'a' in their names.
 
 Usage:
-    ./9-model_state_filter_a.py <mysql_username> <mysql_password> <database_name>
+    ./9-model_state_filter_a.py <mysql_username> <mysql_password>
+    <database_name>
 """
 
 import sys
