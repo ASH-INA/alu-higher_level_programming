@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
-This script lists all State objects from the 'states' table of the specified
-database
+This script lists all State objects from the 'states' table of the
+specified database
 that contain the letter 'a' in their names.
 
 Usage:
